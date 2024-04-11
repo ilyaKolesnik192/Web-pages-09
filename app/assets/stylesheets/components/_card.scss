@@ -1,0 +1,62 @@
+
+.card_image {
+  background: grey;
+  width: 720px;
+  height: 600px;
+  border-radius: 10px;
+}
+
+
+.animationen {
+  background: red;
+}
+
+.videos {
+  background: orange;
+}
+
+.digitale_zeichnungen {
+  background: yellow;
+}
+
+.analoge_zeichnungen {
+  background: rgb(2, 198, 2);
+
+}
+
+.c3d_video {
+  background: rgb(19, 191, 235);
+}
+
+.materialien {
+  background: rgb(64, 5, 241);
+}
+
+.uber_mich {
+  background: rgb(250, 16, 234);
+  text-decoration: none;
+}
+
+.visit_card {
+  display: flex;
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: space-around
+
+}
+
+
+.flexbox_card {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.flexbox_card_vert {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+
+}

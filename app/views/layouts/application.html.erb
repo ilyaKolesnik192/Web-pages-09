@@ -10,7 +10,17 @@
     <%= javascript_importmap_tags %>
   </head>
 
-  <body>
+  <body class="container">
+
+    <nav class="navbar " >
+      <div class="container navbar_color d-flex justify-content-center ">
+        <a href="<%= root_path %>">
+
+          <img src="/assets/imag4.png" class="logo" alt="logo">
+        </a>
+
+      </div>
+    </nav>
     <%= yield %>
   </body>
 </html>
