@@ -1,0 +1,3 @@
+class DreiD < ApplicationRecord
+
+end
